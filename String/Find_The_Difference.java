@@ -96,5 +96,12 @@ class Solution {
         for (char ch : tarr) result+=ch;
         for (char ch : sarr) result-=ch;
         return (char)result;
+
+
+          
+        //Method 05: Use Of HashTable 
+
+//         Take hashtable of char and store all the elements of s inside it 
+//             then iterate from t if hash.get ==false reture that t.char
     }
 }
